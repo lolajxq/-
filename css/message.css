@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body,html{
+    width: 100%;
+    height: 1000px;
+}
+.mask{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 5;
+}
+.message{
+    margin: 36px 418px 0;
+    position: fixed;
+    width: 550px;
+    height: 570px;
+    background-color: rgba(255, 255, 255, 0.85);
+    z-index: 10;
+}
+.img,.close{
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+}
+.img{
+    background-image: url(../img/images_liuyian/title_bg.png);
+    width: 140px;
+    height: 49px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.close{
+    float: right;
+    margin-top: -60px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+.message ul{
+    margin: 10px 30px;
+    width: 480px;
+    height: 480px;
+}
+.message ul li{
+    width: 440px;
+    height: 40px;
+    margin-bottom: 10px;
+}
+.message ul li:nth-child(-n+3){
+    display: flex;
+    align-items: center;
+}
+.message ul li img{
+    margin-left: 20px;
+    width: 22px;
+    height: 22px;
+}
+.message ul li .img1,.message ul li .img3{
+    margin-left: 22px;
+    width: 14px;
+    height: 12px;
+}
+.message ul li>p{
+    margin-left: 20px;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 20px;
+    color: #999999;
+}
+.message ul li .p2{
+    margin-left: 15px;
+}
+.message ul li .p4,.message ul li .p5{
+    color:#000;
+    letter-spacing: normal;
+    width: 160px;
+    margin-top: -35px;
+    margin-left: 50px;
+}
+.message ul li>a{
+    margin-left: -25px;
+    width: 20px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    color: red;
+}
+.message ul li .text{
+    width: 300px;
+    height: 30px;
+}
+.message ul .query{
+    width: 480px;
+    height: 120px;
+    position: relative;
+}
+.message ul .query a,.message ul .text a{
+    position: absolute;
+    left: 140px;
+    margin-top: -40px;
+}
+.message ul> .text{
+    margin-top: 15px;
+}
+.message ul .text a{
+    left: 170px;;
+}
+.message ul .text .word{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.message ul .query .line1,.message ul .query .line2{
+    margin-left: 20px;
+    width: 480px;
+    height: 40px;
+    display: flex;
+    justify-content:space-around;
+}
+.message ul .query .line2{
+    width: 240px;
+}
+.message ul .text{
+    width: 480px;
+    height: 150px;
+}
+.message ul .submit{
+    margin-left: 120px;
+    width: 260px;
+    height: 40px;
+    background-color: #FFD61A;
+    border-style: none;
+    border-radius: 5px;
+}

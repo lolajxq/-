@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/***********sect1***************/
+.sect1{
+    width: 1366px;
+    height: 400px;
+    background-image: url(../img/imagesproduct/banner_goodz.png);
+}
+/***********end sect1***************/
+/***********sect2***************/
+.sect2{
+    width: 1366px;
+    height: 450px;
+    background-color: #EFEFEF;
+    padding-top: 1px;
+    position: relative;
+}
+.sect2> .title{
+    position: absolute;
+    top: 25px;
+    left: 82px;
+    width: 340px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    color: #606060;
+    font-size: 30px;
+    line-height: 35px;
+}
+.sect2> .title p{
+    cursor: pointer;
+}
+.sect2> .title .p2{
+    font-size: 20px;
+}
+.sect2> .title>img{
+    margin: 10px 10px;
+    width: 18px;
+    height: 17px;
+}
+.sect2 .title .icon{
+    width: 5px;
+    height: 35px;
+    background-color: #FFE401;
+}
+.sect2 .top{
+    margin: 80px auto 0;
+    width: 1200px;
+    height: 320px;
+    background-color: #fff;
+}
+.sect2 .up{
+    margin-left: 350px;
+    width: 600px;
+    height: 327px;
+    background-image: url(../img/imagesdetail/goodz_sofa.png);
+    background-size: cover;
+}
+.sect2 .down{
+    margin-top: -70px;
+    width: 1200px;
+    height: 80px;
+   
+    background-color: #333333;
+}
+.sect2 .down ul{
+    width: 1040px;
+    height: 80px;
+    margin-left: 150px;
+    font-size: 20px;
+    color: #D1D1D1;
+    line-height: 40px;
+}
+.sect2 .down ul li{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.sect2 .down .price{
+    color: #FEEA33;
+}
+.top .left{
+    position: absolute;
+    left: 62px;
+    width: 165px;
+    height: 296px;
+    background-image: url(../img/imagesproduct/left_tab_bg.png);
+    background-size: contain;
+} 
+.left .tag{
+    width: 165px;
+    height: 40px;
+    margin-top: 8px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+}
+
+/***********end sect2***************/
+
+/***********sect3***************/
+.sect3{
+    height: 740px;
+    width: 1366px;
+    background-color: #EFEFEF;
+    padding: 1px;
+
+}
+.sect3 .content{
+    margin-left: 83px;
+    margin-top: 20px;
+    height: 720px;
+    width: 1200px;
+    background-color: #fff;
+    position: relative;
+}
+.sect3 .content .title{
+    position: absolute;
+    top: -29px;
+    left: 465px;
+    background-image: url(../img/imagesdetail/Int.png);
+    width: 256px;
+    height: 48px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: bold;
+}
+.sect3 .content img{
+    margin-left: 76px;
+    margin-top: 50px;
+    height: 427px;
+    width: 1048px;
+}
+.sect3 .content p{
+    margin-left: 76px;
+    margin-top: 20px;
+    height: 200px;
+    width: 1048px;
+    font-weight: bold;
+    color: #7D7D7D;
+    text-indent: 20px;
+}
+/***********end sect3***************/

@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/***********sect1***************/
+.sect1{
+    width: 1366px;
+    height: 400px;
+    background-image: url(../img/imagesproduct/banner_goodz.png);
+}
+/***********end sect1***************/
+/***********sect2***************/
+.sect2{
+    width: 1366px;
+    height: 1170px;
+    background-color: #EFEFEF;
+    padding-top: 1px;
+    position: relative;
+}
+.sect2> .title{
+    position: absolute;
+    top: 25px;
+    left: 82px;
+    width: 150px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    line-height: 35px;
+}
+.sect2> .title a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #606060;
+}
+.sect2 .title .icon{
+    width: 5px;
+    height: 35px;
+    background-color: #FFE401;
+}
+.sect2 .top{
+    margin: 80px auto 0;
+    width: 1200px;
+    height: 300px;
+    background-color: #fff;
+    position: relative;
+}
+.top .left{
+    position: absolute;
+    left: -21px;
+    width: 165px;
+    height: 296px;
+    background-image: url(../img/imagesproduct/left_tab_bg.png);
+    background-size: contain;
+} 
+.left .tag{
+    width: 165px;
+    height: 40px;
+    margin-top: 8px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 40px;
+}
+.left .tag:hover{
+    background-color: #FFF9C4;
+}
+.top .center{
+    position: absolute;
+    left: 200px;
+    width: 399px;
+    height: 220px;
+} 
+.center .text1{
+    color: #606060;
+    width: 220px;
+    height: 30px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.center .text2{
+    color: #FEE500;
+    width: 220px;
+    height: 30px;
+    font-size: 20px;
+    margin:-30px 0 0 300px;
+    
+}
+.top .right img{
+    position: absolute;
+    left: 700px;
+    width: 399px;
+    height: 300px;
+    background-size: cover;
+} 
+.top .mask2{
+    position: absolute;
+    left: 650px;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255, 228, 1, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mask2 p{
+    width: 340px;
+    height: 40px;
+    color: #fff;
+    text-indent: 20px;
+    line-height: 20px;
+    font-size: 14px;
+}
+.sect2> .center ul{
+    width: 1200px;
+    height: 310px;
+    margin: 10px auto 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.sect2> .center ul li{
+    width: 360px;
+    height: 290px;
+    background-color: #fff;
+    padding: 10px;
+}
+.sect2> .center ul li div{
+    width: 360px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sect2> .center ul li .title{
+    color: #606060;
+    font-size: 20px;
+}
+.sect2> .center ul li .price{
+    color: #FEE500;
+    font-size: 20px;
+}
+.sect2 .bottom{
+    margin: 50px auto;
+    width: 380px;
+    height: 20px;
+}
+.bottom ul {
+    width: auto;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.bottom ul li{
+    width: 30px;
+    height: 20px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+.bottom ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.bottom ul .next{
+    width: 75px;
+}
+.bottom ul .last{
+    width: 60px;
+}
+/***********end sect2***************/

@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.content{
+    padding-top: 1px;
+    width: 1366px;
+    height: 780px;
+    background-color: #EFEFEF;
+    position: relative;
+}
+.content> .title{
+    position: absolute;
+    top: 25px;
+    left: 82px;
+    width: 340px;
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    color: #606060;
+    font-size: 30px;
+    line-height: 35px;
+}
+.content> .title p{
+    cursor: pointer;
+}
+.content> .title .p2{
+    font-size: 20px;
+}
+.content> .title>img{
+    margin: 10px 10px;
+    width: 18px;
+    height: 17px;
+}
+.content .title .icon{
+    width: 5px;
+    height: 35px;
+    background-color: #FFE401;
+}
+.content .center{
+    margin: 80px 120px 90px;
+    width: 1126px;
+    height: 610px;
+    background-color: #fff;
+}
+.content .left{
+    width: 165px;
+    height: 155px;
+    margin-left: -20px;
+    background-image: url(../img/images_liuyian/news_list.png);
+    background-size: cover;
+    position: relative;
+}
+.content .text{
+    position: absolute;
+    width: 165px;
+    height: 137px;
+    top: -2px;
+}
+.content .text>p{
+    margin-top: 2px;
+    width: 165px;
+    height: 39px;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 39px;
+    font-size: 20px;
+}
+.content .text .tag:hover{
+    background-color: #FFF9C4;
+}
+
+.content img{
+    margin-top: -155px;
+    margin-left: 172px;
+    width: 955px;
+    height: 373px;
+}
+.content .center .descript{
+    margin-top: 50px;
+    margin-left: 172px;
+    width: 955px;
+    height: 140px;
+    text-indent: 30px;
+    color: #999999;
+    z-index: 10;
+}

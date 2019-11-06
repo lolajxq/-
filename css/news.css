@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.content{
+    width: 1366px;
+    height: 1520px;
+    background-color: #EFEFEF;
+}
+/*******top*********/
+.top{
+    width: 1200px;
+    height: 400px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.top .left{
+    width: 165px;
+    height: 155px;
+    margin-left: -20px;
+    background-image: url(../img/images_liuyian/news_list.png);
+    background-size: cover;
+}
+.left .text{
+    width: 165px;
+    height: 137px;
+    margin-top: 8px;
+}
+.left .text>p{
+    width: 165px;
+    height: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+}
+.text .tag:hover{
+    background-color: #FFF9C4;
+}
+.top .center{
+    width: 410px;
+    height: 400px;
+}
+.center ul{
+    margin-top: 10px;
+}
+.center ul li{
+    width: 410px;
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dotted grey;
+    text-align: center;
+    line-height: 47px;
+    font-size: 18px;
+}
+ ul li .title{
+    color: #1fcbea;
+}
+ ul li .org{
+    color: #ff7a0a;
+}
+ ul li .gold{
+    color: gold;
+}
+ ul li .text{
+    margin-left: -20px;
+    color: #595a59;
+}
+  ul li .time{
+    color: #adacac;
+}
+.top .right{
+    width: 540px;
+    height: 400px;
+    background-image: url(../img/images_liuyian/news-top.png);
+}
+
+/*******end top*********/
+/*******bottom*********/
+.bottom{
+    width: 1034px;
+    height: 1110px;
+    padding: 60px 83px 0px;
+}
+.icon{
+    width: 5px;
+    height: 35px;
+    background-color: #FFE401;
+}
+.bottom a{
+    text-decoration: none;
+
+}
+.bottom a>p{
+    top: 70px;
+    width: 150px;
+    height: 35px;
+    color: #999999;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: -35px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.info ul{
+    width: 1200px;
+    height: 1110px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+}
+.info ul li{
+    margin: 5px 50px 5px 5px;
+    width: 1105px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+}
+.info ul li img{
+    width: 185px;
+    height: 151px;
+}
+.info ul li .text1{
+    margin-top: 20px;
+    color: #999999;
+    width: 880px;
+    height: 90px;
+}
+.info ul li .text2{
+    margin-top: 20px;
+    color: #999999;
+    float: right;
+
+}
+/*******end bottom*********/
